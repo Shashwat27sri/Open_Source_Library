@@ -1,0 +1,183 @@
+.main{
+    background-color: rgb(25, 24, 24);
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+}
+.view{
+    height: 29pc;
+}
+.view1{
+    height: 84pc;
+}
+.secwidth{
+  padding-left: 50px;
+  padding-right: 50px;
+  /* padding-top: 100px; */
+}
+
+
+
+/* ###### NAV bar ###### */
+.header{
+    box-sizing: content-box;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(0, 0, 0);
+    
+    
+  }
+  .search{
+    margin-right: 20px;
+    
+  }
+  .navBar{
+    box-sizing: content-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position:relative;
+    top:10px;
+
+
+    
+  }
+  .tags{
+    padding-left: 380px;
+    color: white;
+    justify-content: flex-end;
+    padding-right: 50px;
+    
+    
+  }
+  a{
+    text-decoration: none;
+    
+    
+  }
+  .tags a{
+    font-size: 16px;
+    color: white;
+  }
+  
+  .logo{
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .logo img{
+    width: 150px;
+    height: 100px;
+  } 
+
+
+
+/* ######### navbar done ########*/
+
+.heroImg{
+    margin: 0px 0px 0px 0px;
+    width:75.9pc;
+    opacity:20%;
+    height:29pc;
+}
+.heading{
+    font-size: xx-large;
+    color: azure;
+    
+}
+.heroDetails{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.detail2{
+    width: 600px;
+    font-size: large;
+    text-align: justify;
+    color: beige;
+}
+.detail1{
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.catalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: beige;
+    width: 180px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.bookCoverImg{
+  width: 180px;
+  height:250px;
+  border-radius: 10px 10px 10px 10px;
+}
+.bookCoverImg:hover{
+  width: 190px;
+  height: 260px;
+  rotate: 2deg;
+}
+
+
+/* ########footers########## */
+footer{
+  display:flex ;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: rgb(56, 56, 56);
+}
+.footdiv{
+  margin: 25px;
+}
+.topic{
+  font-size: large;
+  color: rgb(255, 55, 255);
+  text-align: center;
+}
+
+.footlink{
+  color: azure;
+  
+  text-decoration: none;
+
+}
+
+.seemoreButton{
+  padding: 20px;
+  margin-bottom: 50px;
+  width: 150px;
+  background-color:rgb(74, 213, 255);
+  border: none;
+  border-radius: 50px;
+  
+}
+
+
+
+
+
+
+
+
+/* #####scroll bar designing#### */
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: black;
+}
+::-webkit-scrollbar-track{
+  box-shadow:inset 0 0 6px rgb(75, 73, 75);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(255, 55, 255); 
+  border-radius: 10px;
+}
+/* ####scroll bar designing#### */
